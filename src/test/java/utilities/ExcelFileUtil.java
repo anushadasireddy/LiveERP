@@ -114,7 +114,8 @@ public class ExcelFileUtil {
 			System.out.println(Fname+"  "+Mname+"  "+Lname+"  "+EID);
 			//set cell value
 			//xl.setCellData("Empdata", i, 4, "pass", "C:\\ANUSHA\\LiveProject\\Result10.xlsx");
-			xl.setCellData("Empdata", i, 4, "Blocked", "C:\\ANUSHA\\LiveProject\\Result10.xlsx");
+			xl.setCellData("Empdata", i, 4, "fail", "C:\\ANUSHA\\LiveProject\\Result10.xlsx");
+			//xl.setCellData("Empdata", i, 4, "Blocked", "C:\\ANUSHA\\LiveProject\\Result10.xlsx");
 		}
 	}	
 }
